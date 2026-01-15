@@ -85,3 +85,15 @@ main > section {
     background-repeat: no-repeat;
     padding: 30px 20px;
 }
+
+
+
+
+
+
+.sponsors-container {
+    box-shadow: 0 0 0.8px #3A3A3A;
+    justify-content: space-around;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
