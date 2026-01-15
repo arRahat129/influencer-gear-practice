@@ -97,3 +97,66 @@ main > section {
     padding-top: 36px;
     padding-bottom: 36px;
 }
+
+.collections-heading {
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.product {
+    max-width: 330px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.product .product-img {
+    margin: 17px 15px 16px;
+}
+
+.product-text-container {
+    margin-left: 15px;
+}
+
+.product-title {
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 40px;
+    color: rgba(24, 25, 31, 1);
+    margin-bottom: 6px;
+}
+
+.produt-price {
+    font-size: 1.5rem;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.rating {
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 150px;
+}
+
+.stars {
+    max-width: fit-content;
+}
+
+.rate {
+    max-width: fit-content;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: rgba(94, 99, 102, 1);
+    line-height: 22px;
+    letter-spacing: 0.1px;
+}
